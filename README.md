@@ -20,7 +20,7 @@ This project implements **Computer Vision** techniques to enable machines to pro
 
 ### Getting Started
 1. Clone this repository:  
-   `git clone https://github.com/yourusername/computer-vision-project.git`
+   `git clone https://github.com/Amirhatamian/computer-vision-project.git`
 2. Install dependencies:  
    `pip install -r requirements.txt`
 3. Run the example script:  
