@@ -1,27 +1,23 @@
-# Computer-Vision
+# Computer Vision Coursework
 
-## Computer Vision Project
+Homework from my Computer Vision course: image classification, object detection and image segmentation in Python. The files are stored as `.zip` archives; unzip one to open its notebooks.
 
-### Overview
-This project implements **Computer Vision** techniques to enable machines to process, analyze, and understand visual information such as images and videos. By leveraging state-of-the-art methods in machine learning and deep learning, the system can perform tasks like object detection, image classification, and facial recognition.
+| Archive | Content |
+|---|---|
+| `Image classification.zip` | Homework 3: image classification (`classify.ipynb`) and object detection (`detect.ipynb`), with the assignment PDF |
+| `segment_images.zip` | Homework 4: image segmentation (`segment_HW_4_1.ipynb`, assignment text in `homework4_2.pdf`) |
+| `Image_Segmentaion_test_images.zip` | Test images for the segmentation homework |
 
-### Features
-- **Image Classification**: Categorize images into predefined classes.
-- **Object Detection**: Identify and locate objects within an image.
-- **Face Recognition**: Detect and recognize faces in real-time.
-- **Custom Model Training**: Train models on your own datasets for specific use cases.
+## How to run
 
-### Technologies Used
-- Python
-- OpenCV
-- TensorFlow / PyTorch
-- Keras
-- Pre-trained deep learning models (e.g., YOLO, ResNet)
+```bash
+git clone https://github.com/Amirhatamian/Computer-Vision.git
+cd Computer-Vision
+unzip "segment_images.zip"        # or "Image classification.zip"
+pip install opencv-python numpy matplotlib tensorflow jupyter
+jupyter notebook
+```
 
-### Getting Started
-1. Clone this repository:  
-   `git clone https://github.com/Amirhatamian/computer-vision-project.git`
-2. Install dependencies:  
-   `pip install -r requirements.txt`
-3. Run the example script:  
-   `python main.py`
+## Tools
+
+Python, OpenCV, NumPy, Matplotlib, TensorFlow / Keras
